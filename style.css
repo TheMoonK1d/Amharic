@@ -1,0 +1,18 @@
+
+    body {
+      margin: 0;
+      overflow: hidden;
+	  background-color: #101018;
+      color: white;
+      font-family: 'Arial', sans-serif;
+    }
+
+    .word {
+      position: absolute;
+      pointer-events: none;
+      transition: transform 0.3s ease-out, opacity 0.3s ease-out, font-size 0.3s ease-out;
+    }
+	.t{
+		margin-left: 20px;
+	}
+
